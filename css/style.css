@@ -1,0 +1,712 @@
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Alegreya';
+    background: #ffffff;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+hr {
+height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 20px -12px rgba(1, 120, 126, 0.73);
+    margin-top: 5em;
+  margin-bottom: 3em;
+
+}
+.container {
+    background: #ffffff;
+    margin: 0 auto;
+    max-width: 1400px;
+    overflow-x: clip;
+}
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    text-transform: capitalize;
+    line-height: 40px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #000000;
+    text-transform: inherit;
+}
+ul{
+    list-style: symbol;
+}
+p,li {
+    font-weight: 400;
+    font-size: 26px;
+    color: #000000;
+    line-height: 32px;
+}
+p{
+    text-align: justify;
+}
+a {
+    color: #FF4CBE;
+}
+.content-area p.bordertext {
+    border-style: solid;
+    border-color: #0F7B7F;
+    padding: 1em;
+    background: #CBE7E7;
+    max-width: 750px;
+    width: 100%;
+}
+img.zoom-image {
+    transition: 1s;
+}
+img.zoom-image:hover {
+    transform: scale(1.25);
+    margin: 30px auto;
+}
+/*=====================================================================================
+  =====                          Start Header Section Css                         =====
+  =====================================================================================*/
+  .header-container {
+    background: inherit;
+}
+.header-area img {
+    display: block;
+    margin: 18px auto;
+    width: 100%;
+    height: auto;
+}
+/*=====================================================================================
+  =====                            End Header Section Css                         =====
+  =====================================================================================*/
+
+/*=====================================================================================
+  =====                          Start Main Menu Dropdown Css                     =====
+  =====================================================================================*/
+  .navbar {
+    background-color: #2f3d3d;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dropdown {
+    flex: 0 0 33.33%;
+    position: relative;
+}
+.dropdown button.dropbtn {
+    font-size: 22px;
+    border: none;
+    outline: none;
+    color: #ffd500;
+    padding: 14px 0;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+}
+.dropdown button.dropbtn img {
+    width: 12px;
+    height: 9px;
+    position: absolute;
+    top: 24px;
+    right: 38%;
+}
+.dropdown:hover .dropbtn {
+  background-color: #0F7B7F;
+}
+.dropdown-content {
+    background: #CBE7E7;
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    z-index: 99;
+}
+.dropdown:hover .dropdown-content {
+  visibility: visible;
+}
+.dropdown-content a {
+   font-weight: 400;
+   font-size: 22px;
+   color: #000000;
+   padding: 14px 20px;
+   text-decoration: none;
+   display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ffd500;
+}
+/*=====================================================================================
+  =====                           End Main Menu Dropdown Css                      =====
+  =====================================================================================*/
+
+/*=====================================================================================
+  =====                    Start Learn Faux Painting Section                      =====
+  =====================================================================================*/
+
+.learn-faux-painting-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.learn-faux-painting-content {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.learn-faux-painting-text {
+    text-align: center;
+    max-width: 920px;
+    width: 100%;
+    margin: 0 auto;
+}
+.learn-faux-painting-text ul {
+    list-style: disc;
+    text-align: left;
+}
+.learn-faux-painting-text img {
+    width: 60%;
+    height: auto;
+    padding-top: 10px;
+}
+.learn-faux-painting-text p {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.learn-faux-painting-text p.bordertext {
+    border-style: solid;
+    border-color: #0F7B7F;
+    padding: 1em;
+    background: #CBE7E7;
+    max-width: 750px;
+    width: 100%;
+}
+.learn-faux-iframe-video {
+    height: 560px;
+    width: 90%;
+    margin: 45px auto 0 auto;
+}
+..learn-faux-iframe-video.content {
+    width: 90%;
+}
+.learn-faux-iframe-video iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.learn-faux-painting-text h1.first-heading {
+    margin-top: 45px;
+}
+.learn-faux-painting-text h2 {
+    margin-top: 22px;
+    margin-bottom: 15px;
+}
+.main-slider-area {
+    height: 620px;
+    margin: auto;
+    width: 90%;
+    position: relative;
+}
+.main-slider-area i {
+    font-size: 50px;
+    color: #fff;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.main-slider-area i.left-icon {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+/*Owl Carousel Css*/
+.main-slider-area.owl-carousel .owl-item img {
+    height: 620px !important;
+}
+.owl-dots {
+    position: absolute;
+    bottom: 17px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.owl-carousel button.owl-dot {
+    background: #fff;
+    height: 5px;
+    width: 55px;
+    margin: 0 5px;
+    border-radius: 5px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.owl-carousel button.owl-dot:hover{
+    background: #CCCCCC;
+}
+.main-slider-area i.right-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.main-slider-area i:hover {
+    color: #CCCCCC;
+}
+.main-slider-area img {
+    width: 100%;
+    height: 100%;
+    margin: 35px 0;
+    display: block;
+}
+
+/* Start Painting Store Tools and What You Need Area */
+.content-area p {
+    text-align: justify;
+    max-width: 810px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+.content-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 70px;
+    text-align: center;
+    width: 100%;
+    margin: 35px auto 0 auto;
+}
+.content-area hr {
+    width: 100%;
+}
+.content-area a {
+    width: 100%;
+    height: auto;
+}
+.content-area img {
+    width: 53%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 22px;
+}
+.content-area-image2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.content-first-image,.content-second-image{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 48%;
+    flex: 0 0 48%;
+    margin: 0;
+}
+.content-first-image img,.content-second-image img {
+    width: 100%;
+    height: auto;
+}
+.content-area p {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 63%;
+    flex: 0 0 95%;
+}
+.content-area p span {
+    margin-top: 20px;
+    display: inline-block;
+}
+.content-area h2 {
+    width: 96%;
+    text-align: center;
+    padding-top: 30px;
+    max-width: 810px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+.content-area-facebook {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.content-area-facebook img {
+    padding-top: 0;
+    width: 225px;
+    margin: 0 auto;
+    height: 80px;
+    object-fit: contain;
+    margin-top: 15px;
+}
+
+.register-button img {
+    width: 300px !important;
+    height: auto;
+}
+/* End Painting Store Tools Area */
+
+/* Start Painting Gallery Area Css*/
+
+.Painting_gallery_area {
+    width: 100%;
+    padding-bottom: 30px;
+}
+.Painting_gallery_title {
+    text-align: center;
+}
+.Painting_gallery_box {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: auto;
+}
+.Painting_gallery_images {
+    margin-top: 25px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 46%;
+    flex: 0 0 46%;
+    max-width: 46%;
+}
+.p_gallery_img img {
+    width: 100%;
+    height: 320px;
+}
+.p_gallery_img_btn {
+    text-align: center;
+    padding-top: 10px;
+}
+.p_gallery_img_btn a {
+    position: relative;
+    color: #FF33BE;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: normal;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: .2px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.p_gallery_img_btn a::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.p_gallery_img_btn a:hover::after {
+    background: #FF33BE;
+}
+/* End Painting Gallery Area Css */
+
+/* Start Questions Area Css */
+.Questions_area_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.single_Questions_items {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-right: 7%;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.single_Questions_box {
+    background: #FFE6B3;
+    padding: 25px 30px;
+}
+
+.single_que_title {
+    text-align: center;
+}
+.single_que_title p {
+    text-align: center;
+    padding: 8px 0;
+}
+.que_list ul li a {
+    color: #FF33BE;
+    font-size: 25px;
+    line-height: 50px;
+    list-style: bullet;
+    padding-left: 25px;
+}
+
+.Articles_list {
+    margin-top: 15px;
+}
+.Articles_list h2 {
+    text-align: center;
+}
+.Articles_list p,
+.complit_box p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: normal;
+    padding: 6px 0;
+}
+.complit_box {
+    text-align: center;
+    padding-top: 10px;
+}
+.complit_box a {
+    padding-top: 10px;
+    color: #FF33BE;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 25px;
+}
+.Que_gifImg_box {
+    text-align: center;
+}
+.Que_gifImg_box img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+.product-ads {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 43%;
+    flex: 0 0 43%;
+    max-width: 43%;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #0F7B7F;
+    padding: 0 30px;
+    height: 98%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.product-ads img {
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+}
+.product-ads p {
+    padding-top: 5px;
+    text-align: center;
+    color: #FFF;
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+}
+.product-ads h2 {
+    max-width: 270px;
+    margin: 0 auto;
+    line-height: normal;
+    width: 100%;
+    color: #FFF;
+    margin-top: 25px;
+    padding: 15px 0;
+}
+.product-ads span {
+    font-weight: 700;
+    color: #FFF;
+    font-size: 24px;
+}
+.que-image-two img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+}
+.product-ads img.first-image{
+    width:60%;
+    height: auto;
+    margin-top: 0;
+}
+.que_gif_box {
+    margin-top: 25px;
+    text-align: center;
+}
+.que_gif_box h2 {
+    max-width: 270px;
+    margin: 0 auto;
+    line-height: normal;
+    width: 100%;
+    color: #FFF;
+}
+.que_gif_box span {
+    font-weight: 700;
+    color: #FFF;
+    font-size: 24px;
+}
+.que_gif_box p {
+    padding-top: 5px;
+    color: #FFF;
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.1;
+}
+.que-three-img img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+/* End Questions Area Css */
+
+/* Start Footer Area Css */
+.footer_area {
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+    background: #CBE7E7;
+}
+.footer_area img {
+    margin-top: 10px;
+}
+.footer_area p {
+    text-align: center;
+    font-size: 24px;
+    line-height: normal;
+    padding: 20px 0;
+}
+/* End Footer Area Css */
+/*=====================================================================================
+  =====                     End Learn Faux Painting Section                       =====
+  =====================================================================================*/
+
+/*========================================================================================================================
+  =====                                  START FAUX PAINTING GLAZES PAGE CSS                                         =====
+  ========================================================================================================================*/
+
+/*=====================================================================================
+  =====                            Start Product Ads2 Area Css                    =====
+  =====================================================================================*/
+  .product-ads2 {
+    background: #0F7B7F;
+    max-width: 680px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+}
+.product-ads2 h2,.product-ads2 p {
+    max-width: 315px;
+    width: 100%;
+    text-align: center;
+    margin: 15px auto;
+    color: #FFFFFF;
+}
+.product-ads2-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.product-ads2-first-image {
+    margin-right: 10px;
+}
+.product-ads2-second-image {
+    margin-left: 10px;
+}
+.product-ads2-first-image img {
+    width: 138px;
+    height: auto;
+}
+.product-ads2-second-image img {
+    width: 200px;
+    height: auto;
+}
+.product-ads2-first-image h2,.product-ads2-second-image h2{
+    margin-top: 15px;
+}
+/*=====================================================================================
+  =====                            End Product Ads2 Area Css                      =====
+  =====================================================================================*/
+
+/*========================================================================================================================
+  =====                                    END FAUX PAINTING GLAZES PAGE CSS                                         =====
+  ========================================================================================================================*/
+
+

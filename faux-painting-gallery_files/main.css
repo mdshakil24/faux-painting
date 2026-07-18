@@ -1,0 +1,217 @@
+@import url('reset.css');
+
+/* General Codrops Demo Style */
+
+body {
+margin: 0 auto;
+padding: 0;
+font: 19px Verdana;
+background: #211d1e 
+}
+
+img { 
+max-width: 100%;
+height: auto; 
+}
+
+#wrap {
+background: #F6EAC2;
+color: #000000;
+border:  none;
+margin: 0 auto;
+max-width: 800px;
+width: 100%;
+text align: center;
+}
+
+#header {
+clear: both;
+margin: 0px 0em 0px 0em;
+padding: 0;
+height: 20px;
+background-color: #000000;
+width: 100%;
+text align: center;
+}
+
+#content {
+margin: 18px 5px 10px 110px;
+padding: 0 10px 0 18px;
+line-height: 1.2em;
+text-align: center;
+width: auto;
+}
+
+#content h1 {
+font-size: 120%;
+font: Cooper Black;
+margin: 0 0 0.5em 0;
+text-align: center;
+}
+
+#content p {
+font: 120%;line-height:1.2;
+}
+
+#content h2 {
+font-size: 110%;
+font: Cooper Black;
+margin: 0 0 0.5em 0;
+padding: 0;
+}
+
+#content h3 {
+font-size: 100%
+font: Cooper Black;
+margin: 0 0 0.5em 0;
+padding: 0;
+}
+
+#content img {
+padding: 0px;
+display: inline;
+max-width: 100%;
+height: auto; 
+}
+
+#avmenu {
+clear: left;
+float: left;
+max-width: 115px;
+width: 100%;
+margin: 0px 0 5px 0;
+padding: 0;
+font-size: 100%;
+}
+
+#avmenu ul {	
+list-style: none;
+width: 100%;
+margin: 0 0 20px 0;
+padding: 0;
+font-size:90%;
+text-align: center;
+}	
+
+#avmenu li {
+margin-bottom: 4px;
+}
+
+#avmenu li a {
+height: 200%;
+text-decoration: none;
+color: #fffff1;
+display: block;
+padding: 6px 20px 12px 3px;
+background: #67522c;
+}
+	
+	
+#avmenu li a:hover {
+background: #67522c;
+color: red;
+border-left: 4px #47381e solid;
+}
+
+.announce {
+margin: 0 0 0 0;
+float: right;
+text-align: cen
+padding: 10px;
+width: 100%;
+color: #ffffff;
+background-color: #67522c;
+line-height: 1.3em;
+}
+
+#extras {
+float: right;
+text-align: center;
+max-width:240px;
+width: 100%;
+margin: 0 0 0 0;
+width: 100%;
+padding: 2px;
+background-color: #F2E0A3;
+}
+
+#extras p {
+margin: 0 0 3px 5px;
+padding: 5px;
+font-size:19px;line-height:1.2;
+}
+
+#extras2 {
+float:right;
+text-align: center;
+width: 118px;
+margin: 0 0 0 0;
+padding: 0px;
+line-height: 1320em;
+background-color: #F2E0A3;
+}
+
+#extras2 p {
+margin: 0 0 1em 25px;
+padding: 5px;
+font-size:19px;line-height:1.2;
+}
+
+a {
+text-decoration: none;
+color: #983D06;
+}
+
+a:hover {
+text-decoration: underline;
+color: red;;
+}
+
+
+#footer {
+clear: both;
+margin: 0 auto;
+padding: 0px 0em 0px 0em;
+width: 100%;
+text-align: center;
+color: #808080;
+height: 100px;
+border: none;}
+
+
+.left {
+margin: 0px 7px 0px 5px;
+float: left;
+}
+
+.right {
+margin: 0px 7px 0px 5px;
+float: right;
+}
+
+.textright {
+text-align: center;
+font-size: 1.3em;
+}
+
+.center {
+text-align: center;
+}
+
+.small {
+font-size: 0.8em;
+}
+
+.bold {
+font-weight: bold;
+}
+
+.hide {
+display: none;
+}
+
+strong { 
+font-weight: bold; 
+}
+
+
