@@ -256,14 +256,20 @@ img.zoom-image:hover {
 }
 /*Owl Carousel Css*/
 .main-slider-area.owl-carousel .owl-item img {
-    height: 620px !important;
+    height: 570px !important;
+}
+.main-slider-area.owl-carousel .owl-item img {
+    width: 80%;
+    margin: auto;
 }
 .owl-dots {
     position: absolute;
-    bottom: 17px;
+    bottom: 90px;
     left: 0;
-    width: 100%;
+    right: 0;
+    width: 80%;
     text-align: center;
+    margin: auto;
 }
 .owl-carousel button.owl-dot {
     background: #fff;
