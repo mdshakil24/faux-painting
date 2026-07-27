@@ -444,6 +444,23 @@
      ===================================================================================== -->
     <script src="js/jquery-1.3.2.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Owl carousel Slider Js
+            $('.main-slider-area').owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                items: 1,
+                nav: true,
+                dots: true,
+                navText: [
+                '<i class="left-icon fas fa-chevron-left"></i>',
+                '<i class="right-icon fas fa-chevron-right"></i>'
+                ],
+            });
+        });
+    </script>
 
 </body>
 
